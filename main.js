@@ -3,7 +3,8 @@ const {createText} = Vue;
 createText({
     data() {
         return {
-            randomText: "Amigo",  
+            randomText: "Amigo", 
+            
         }
     }
-}).mount("#myText")
+}) .mount("#myText");
